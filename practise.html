@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="C:\Users\gurud\OneDrive\Desktop\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/utensils?s=solid">
+    
+    
+
+    <style>
+        body {
+            background-color:black;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.2s;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-repeat: no-repeat;
+            background-size:cover;
+            
+            
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display:block;
+            background-color:black;
+            overflow: hidden;
+            
+        }
+        li {
+            margin: 0;
+            float:right;
+            
+        }
+        li a {
+            display: block;
+            color:white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s, font-size 0.3s;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        li a:hover {
+            background-color: #111;
+            font-size: 20px;
+        }
+        .biryani {
+            background-image: linear-gradient(45deg, #777,#F5B553);
+            background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjY2LWtuLWQxLTAwMWNfMS5qcGc.jpg");
+        
+
+            background-size: cover;
+            height: 700px;
+            background-repeat: no-repeat;
+            border-radius: 20px;
+            opacity:1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+            text-align: left;
+        }
+        .biryani div {
+            color: white;
+            font-size: 40px;
+        }
+        button {
+            background-color:#E45826;
+            
+            color: white;
+            border-radius: 50px;
+            border: 1px solid #111;
+            padding: 14px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+            background-color: #333;
+            box-shadow: 0 0 10px #000;
+        }
+        @media (max-width: 768px) {
+            .biryani {
+                background-size: cover;
+                height: 400px;
+            }
+            .biryani div {
+                font-size: 24px;
+            }
+            button {
+                padding: 12px 24px;
+                font-size: 14px;
+            }
+        }
+        .fa {
+            padding: 10px;
+            font-size: 20px;
+            width: 70px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-instagram {
+            background-image: linear-gradient(45deg, #F40968,#F5B553,#512E5E);
+            color: white;
+        }
+        .fa-map-marker{
+            background-color:black;
+            color: white;
+            
+        }
+        .fa-phone{
+            background-color:black;
+            color: white;
+        }
+        .fa-envelope{
+            background-color:black;
+            color: white;
+        }
+        .my{
+            width:100%;
+            overflow:auto;
+            height:auto;
+        }
+        .my div{
+            width:50%;
+            float:left;
+            background-color: #000;
+        }
+        .fas{
+            padding: 10px;
+            font-size: 20px;
+            width: 70px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+
+        }
+        .fa-utensils{
+            background-color: #333;
+            color: white;
+            border: 2px solid #F4CE14;
+            
+        }
+  
+        .short-underline {
+            
+            margin-bottom:10px;
+            width:50px;
+            position:relative
+            /* Adjust this width as needed */
+        }
+        .short-underline::after{
+            content: '';
+    display: block;
+    width: 80px; /* Adjust the width as needed */
+    height: 3px; /* Adjust the height as needed */
+    background-image: linear-gradient(45deg,#E45826,#F5B553); /* Adjust the color as needed */
+    position: absolute;
+    bottom: -7px; /* Adjust the vertical position as needed */
+    left: 35%;
+    transform: translateX(-50%);
+
+        }
+       
+    </style>
+</head>
+<body>
+    
+    
+    <ul>
+        <li style="float:left;margin:5px;color:white;"><a href="#" class="fas fa-utensils"></a><b>WholeServe <sub>since 1990</sub></span></b></span></li>
+        
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#home">Home</a></li>
+    </ul>
+    
+    <div class="biryani">
+        <div>
+            <pre>
+         <i>WHERE EVERY CUISINE 
+        
+       IS DELIVERED WITH FINESSE</i>
+            
+          <button><b>ORDER ONLINE</b></button><button><b>RESERVE TABLE</b></button>
+            </pre>
+        </div>
+    </div>
+        <br>
+        <br>
+        <br><br>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://assets.technologynetworks.com/production/dynamic/images/content/374499/how-chronic-stress-can-drive-junk-food-consumption-374499-960x540.jpg?cb=12326920" style="height:200px;">
+            <div class="card-content">
+                <h3  style="color: #000;font-size: 20px;">APPETIZERS</h3>
+                <p style="color:#000;">Tasty served handy grabs to start your day</p>
+                <div class="arrow">
+                    <i class="fas fa-arrow-right card-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/indian-chicken-biryani-spicy-chicken-biryani-food-photography-flying-food-black-background_875825-50413.jpg" style="height:200px;">
+            <div class="card-content">
+                <h3 style="color: #000;font-size: 20px;">ENTREE</h3>
+                <p style="color:#000;">The wholesome meal to fulfill your day</p>
+                <div class="arrow">
+                    <i class="fas fa-arrow-right card-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://static.vecteezy.com/system/resources/previews/036/145/016/large_2x/ai-generated-food-dessert-and-hospitality-sweet-desserts-in-restaurant-a-la-carte-menu-english-countryside-exquisite-cuisine-culinary-art-and-fine-dining-photo.jpg" style="height:200px;">
+            <div class="card-content">
+                <h3 style="color: #000;font-size: 20px;">DESSERT</h3>
+                <p style="color:#000;">Sweet treats to make you smile</p>
+                <div class="arrow">
+                    <i class="fas fa-arrow-right card-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://c4.wallpaperflare.com/wallpaper/256/692/28/summer-drinks-mojito-green-lemon-ice-cup-water-splash-wallpaper-preview.jpg" style="height:200px;">
+            <div class="card-content">
+                <h3 style="color: #000;font-size: 20px; ">REFRESHERS</h3>
+                <p style="color:#000;">A sip to levitate your spirit</p>
+                <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="my">
+        <div>
+            <h1  style="font-family:Poppins;margin:30px;margin-top:20px;margin-left:40px;color:white;"><span class="short-underline">ABOUT US</span></h1>
+            <p style="color:white;margin-left:40px;font-size:20px;font-family: 'Times New Roman', Times, serif;">we combine tradition with innovation to offer you a unique dining experience.
+                 Whether you’re here for a quick bite or a special celebration, we are dedicated to providing exceptional service and a warm, inviting atmosphere.
+
+                Join us for a culinary journey that spans the globe, from classic favorites to exotic flavors.</p><br>
+            <h3 style="color:white;margin-left: 40px;">FOLLOW US ON 
+            <a href="#" class="fa fa-facebook"style="margin:10px;"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a></h3>    
+            
+            
+           
+        </div>
+        <div style="padding-left:450px;margin-top:50px;">
+            <h1 style="font-family:Poppins;color:white;font-size:25px;margin-left:40px;">  Contact Us</h1>
+            <p style="font-family: 'Times New Roman', Times, serif;color:white;"><a href="#" class="fa fa-map-marker" ></a>4th avenue,oaknut-field,625667</p>
+            <p style="color:white;"><a href="#" class="fa fa-phone"></a>040-040-0000</p>
+            <p style="color:white;"><a href="#" class="fa fa-envelope"></a>askvrittles@gmail.com</p>
+           
+            
+
+           
+           
+        </div>
+       
+    </div>
+    
+
+</body>
+</html>
+
